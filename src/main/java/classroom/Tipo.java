@@ -8,8 +8,4 @@ public enum Tipo {
 	private Tipo(int codigo) {
 		this.codigo = codigo;
 	}
-	private Tipo(int codigo, String nombre) {
-		this.codigo = codigo;
-		this.nombre = nombre;
-	}
 }
